@@ -1,9 +1,8 @@
 name: Aimeos e-commerce components
-category: e-commerce
 url: https://aimeos.org/Symfony
 dependencies:
-    - symfonyfs
-components: []
+    - https://github.com/aimeos/aimeos-core/blob/master/composer.json
+    - https://github.com/aimeos/aimeos-symfony/blob/master/composer.json
 description: |
     Aimeos is a full-featured online shop and market place bundle which
     integrates the Aimeos e-commerce library into Symfony. It offers a

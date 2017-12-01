@@ -1,25 +1,7 @@
 name: Thelia
-category: e-commerce
 url: http://thelia.net
-dependencies: []
-components:
-    - BrowserKit
-    - ClassLoader
-    - Config
-    - Console
-    - DependencyInjection
-    - EventDispatcher
-    - Filesystem
-    - Finder
-    - Form
-    - HttpFoudation
-    - HttpKernel
-    - Icu
-    - Routing
-    - Serializer
-    - Translation
-    - Validator
-    - Yaml
+dependencies:
+    - https://github.com/thelia/thelia/blob/master/composer.json
 description: |
     Thelia is a tool for creating e-commerce websites and for online
     content management, published under General Public License. Thelia

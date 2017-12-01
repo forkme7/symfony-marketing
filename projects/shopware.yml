@@ -1,18 +1,7 @@
 name: Shopware
-category: e-commerce
 url: http://shopware.de
-dependencies: []
-components:
-    - Config
-    - Console
-    - DependencyInjection
-    - Finder
-    - Filesystem
-    - HttpFoundation
-    - HttpKernel
-    - Routing
-    - Validator
-    - Yaml
+dependencies:
+    - https://github.com/shopware/shopware/blob/5.2/composer.json
 description: |
     Shopware is a complete eCommerce solution, combining a full range of
     functionality with a masterfully crafted simplistic design suitable

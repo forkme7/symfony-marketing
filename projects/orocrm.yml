@@ -1,9 +1,8 @@
 name: OroCRM
-category: pim-crm
-url: http://orocrm.com
+url: https://www.orocrm.com
 dependencies:
-    - symfonyfs
-components: []
+    - https://github.com/oroinc/crm/blob/master/composer.json
+    - https://github.com/oroinc/platform/blob/master/composer.json
 description: |
     OroCRM is an easy-to-use, open source CRM with built-in marketing
     tools for your ecommerce business. It's the CRM both marketing and

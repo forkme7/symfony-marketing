@@ -1,9 +1,7 @@
 name: Victoire CMS
-category: cms
 url: https://victoire.io/
 dependencies:
-    - symfonyfs
-components: []
+    - https://github.com/Victoire/victoire/blob/master/composer.json
 description: |
     Victoire is an open source content management system based on the full
     stack Symfony framework and built to create complex custom websites.

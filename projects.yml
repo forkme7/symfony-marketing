@@ -1,86 +1,107 @@
-highlighted:
+# the order of projects in each category is important because the first ones
+# are highlighted on symfony.com
+cms:
     - drupal
-    - phpbb
-    - laravel
     - joomla
     - ezpublish
-    - composer
-    - magento
-    - prestashop
-    - piwik
-    - symfonyfs
-    - flarum
-major:
-    - lumen
-    - silex
-    - assetic
-    - goutte
-    - sami
-    - sismo
-    - orocrm
-    - oroplatform
-    - doctrine
-    #- midgard
-    - behat
-    - sylius
-    - sonataproject
-    - zikula
     - grav
     - symfonycmf
-    #- jackalope
-    - akeneo
-    - shopware
-    - propel
-    - mautic
-    - codeception
-    - apiplatform
-    - phpmyadmin
-    - ratchet
-    - deployer
-minor:
     - typo3
-    - thelia
-    - kunstmaanbundles
-    - sculpin
-    - flow
-    - phpspec
-    - phpdocumentor
+    - sulu
     - bolt
     - pagekit
-    - vespolina
-    - easybook
     - forkcms
-    - phpmyfaq
-    - ppi
-    - proem
-    - sulu
-    - initcms
-    - carew
-    - redkitecms
-    - ladybug
-    - phinx
-    - elcodi
-    - spress
-    - phpredexpert
-    - roadiz
-    - mothership
+    - victoire
+    - zikula
+    - octobercms
     - backbee
     - concrete5
+    - roadiz
+    - redkitecms
+    - contao
+    - initcms
+    - pico
+    - pyro
+e-commerce:
+    - magento
+    - prestashop
+    - sylius
+    - shopware
     - sonataecommerce
+    - eccube
+    - wellcommerce
+    - aimeos
+    - thelia
+    - mothership
+    - spryker
+    - orocommerce
+framework:
+    - laravel
+    - symfonyfs
+    - yii
+    - silex
+    - lumen
+    - flow
+    - ppi
+pim-crm:
+    - orocrm
+    - akeneo
+    - pimcore
+code-quality:
+    - php-cs-fixer
+    - phan
+    - phpstan
+    - deptrac
+    - quality-analyzer
+    - pdepend
+sdk:
+    - google-api
+    - facebook-ads
+    - google-cloud-platform
+    - facebook-instant-articles
+# the order in the default category is irrelevant because these projects are
+# displayed in alphabetical order
+default:
+    - apiplatform
+    - assetic
+    - behat
+    - bowerphp
+    - cachet
+    - carew
+    - codeception
+    - composer
+    - deployer
+    - doctrine
     - drupalconsole
     - drush
-    - wellcommerce
-    - contao
-    - aimeos
-    - pdepend
-    - bowerphp
-    - freepost
+    - easybook
+    - flarum
+    - goutte
+    - kunstmaanbundles
+    - ladybug
+    - mautic
     - morfeu
-    - pimcore
-    - csbill
-    - eccube
-    - wallabag
-    - silverstripe
-    - victoire
-    - wpcli
+    - oroplatform
+    - owncloud
+    - phinx
+    - phpbb
+    - phpdocumentor
+    - phpmailer
+    - phpmyadmin
+    - phpmyfaq
+    - phpredexpert
+    - phpspec
+    - piwik
+    - propel
+    - ratchet
     - rocketeer
+    - sami
+    - sculpin
+    - silverstripe
+    - sismo
+    - solidinvoice
+    - sonataproject
+    - spress
+    - wallabag
+    - wpcli
+    - psysh

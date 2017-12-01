@@ -1,9 +1,7 @@
 name: WellCommerce
-category: e-commerce
 url: http://wellcommerce.org
 dependencies:
-    - symfonyfs
-components: []
+    - https://github.com/WellCommerce/WellCommerce/blob/master/composer.json
 description: |
     WellCommerce is a modern open source e-commerce platform, which has been
     created from scratch on Symfony Full-stack framework, with a background

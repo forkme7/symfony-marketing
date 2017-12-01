@@ -1,36 +1,7 @@
 name: Symfony
-category: framework
 url: https://symfony.com
-dependencies: []
-components:
-    - BrowserKit
-    - ClassLoader
-    - Config
-    - Console
-    - CssSelector
-    - Debug
-    - DependencyInjection
-    - DomCrawler
-    - EventDispatcher
-    - Filesystem
-    - Finder
-    - Form
-    - HttpFoundation
-    - HttpKernel
-    - Locale
-    - Intl
-    - Icu
-    - OptionsResolver
-    - Process
-    - PropertyAccess
-    - Routing
-    - Security
-    - Serializer
-    - Stopwatch
-    - Templating
-    - Translation
-    - Validator
-    - Yaml
+dependencies:
+    - https://github.com/symfony/symfony/blob/master/composer.json
 description: |
     Symfony is an Open Source PHP Web applications development framework.
     It was originally conceived by the interactive agency SensioLabs for

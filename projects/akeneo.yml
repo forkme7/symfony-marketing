@@ -1,9 +1,8 @@
 name: Akeneo PIM
-category: pim-crm
 url: http://akeneo.com
 dependencies:
-    - symfonyfs
-components: []
+    - https://github.com/akeneo/pim-community-dev/blob/master/composer.json
+    - https://github.com/akeneo/pim-community-standard/blob/master/composer.json
 description: |
     Akeneo is an open source Product Information Management (PIM) system
     designed for retailers looking for efficient answers to their

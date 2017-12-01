@@ -1,9 +1,8 @@
 name: eZ Publish
-category: cms
 url: http://ez.no/Community
 dependencies:
-    - symfonyfs
-components: []
+    - https://github.com/ezsystems/ezplatform/blob/master/composer.json
+    - https://github.com/ezsystems/ezplatform-ee/blob/master/composer.json
 description: |
     The eZ Publish Community project serves as the foundation for the eZ Publish
     Enterprise Edition, which is built for business-critical digital
